@@ -1,6 +1,4 @@
-import { fabric } from "./fabric";
-
-var canvas= new fabric.Canvas("myCanvas");
+var canvas = new fabric.Canvas("myCanvas");
 
 player_x = 10;
 player_y = 10;
@@ -12,7 +10,7 @@ var player_object= "";
 var block_object= "";
 
 function player_update(){
-    fabric.Image.fromURL("player.png",function(img){
+    fabric.Image.fromURL("https://i.postimg.cc/zDwfFdYY/player.png",function(img){
         player_object= img;
         player_object.scaleToWidth(150);
         player_object.scaleToHeight(140);
@@ -61,27 +59,27 @@ function my_keydown(e)
 
     if(keyPressed == '70')
     {
-        new_image('ironman_face.png')
+        new_image('https://i.postimg.cc/hGnyTPLB/ironman-face.png')
         console.log("f");
     }
     if(keyPressed == '66')
     {
-        new_image('spiderman_body.png')
+        new_image('https://i.postimg.cc/FscwL6M0/spiderman-body.png')
         console.log("b");
     }
     if(keyPressed == '76')
     {
-        new_image('hulk_legs.png')
+        new_image('https://i.postimg.cc/KzF6GDqt/hulk-legs.png')
         console.log("l");
     }
     if(keyPressed == '82')
     {
-        new_image('thor_right_hand.png')
+        new_image('https://i.postimg.cc/8s8BGtwS/thor-right-hand.png')
         console.log("r");
     }   
     if(keyPressed == '72')
     {
-        new_image('captain_america_left_hand.png')
+        new_image('https://i.postimg.cc/rw7ckW29/captain-america-left-hand.png')
         console.log("h");
     }
     if(keyPressed == '38')
